@@ -47,7 +47,7 @@ And, off course, don’t forget to have fun! Stay MAD!!
         
 Regards,
 Sangram Chavan
-        '''.format(names[i],content[i],)
+        '''.format(names[i],content[i])
     msg.attach(MIMEText(text, 'plain'))
     message = msg.as_string()
     server.sendmail(username, emails[i], message)
