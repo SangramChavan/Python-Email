@@ -11,3 +11,6 @@ Install Openpyxl
 pip3.7 install openpyxl
 
 Emailer.xlsx contains sample data that you need to change
+
+While the recipients in sendmail(sender, recipients, message)
+Example: sendmail("a@a.com", ["a@b.com", "b@b.com", "c@b.com"], "Howdy")
