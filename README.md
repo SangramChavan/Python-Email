@@ -9,3 +9,5 @@ Required :
 Install Openpyxl
 
 pip3.7 install openpyxl
+
+Emailer.xlsx contains sample data that you need to change
