@@ -9,7 +9,7 @@ From = username
 Subject = 'Test'
 
 wb = xl.load_workbook(r'emailer.xlsx')
-sheet1 = wb[Sheet1]
+sheet1 = wb['Sheet1']
 
 names = []
 emails = []
